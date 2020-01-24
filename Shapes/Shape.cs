@@ -13,7 +13,13 @@ namespace Shapes
         {
             GeometricShapes = new List<IGeometricShape>();
         }
-                
+
+        /// <summary>
+        /// Add a Shape to an internal list depending on the ShapeType
+        /// </summary>
+        /// <param name="shapeType"></param>
+        /// <param name="color"></param>
+        /// <param name="measurements"></param>
         public void AddShape(Common.ShapeType shapeType, Common.Color color, IList<int> measurements)
         {
             switch(shapeType)
@@ -60,6 +66,11 @@ namespace Shapes
             }
         }
 
+        /// <summary>
+        /// it will return a string with or without filter depending on the shapeType
+        /// </summary>
+        /// <param name="shapeType"></param>
+        /// <returns></returns>
         public string PrintShapes(Common.ShapeType? shapeType)
         {
             var sb = new StringBuilder();

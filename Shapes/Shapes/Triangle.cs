@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Shapes.Shapes
+﻿namespace Shapes.Shapes
 {
     class Triangle : IGeometricShape
     {

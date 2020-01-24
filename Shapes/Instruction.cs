@@ -2,6 +2,9 @@
 
 namespace Shapes
 {
+    /// <summary>
+    ///  Instruction will have the properties to create a new GeometricShape
+    /// </summary>
     public class Instruction
     {
         public Common.Command Command { get; set; }

@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Shapes.Shapes
+﻿namespace Shapes.Shapes
 {
     class Square : IGeometricShape
     {
